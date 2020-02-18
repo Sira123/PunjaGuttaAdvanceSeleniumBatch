@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13324" started-at="2020-02-17T18:28:44 IST" finished-at="2020-02-17T18:28:58 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="13324" started-at="2020-02-17T18:28:44 IST" finished-at="2020-02-17T18:28:58 IST">
+      <class name="com.actitime.customers_scripts.CreateCustomer">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.actitime.customers_scripts.CreateCustomer@63753b6d]" name="OpenBrowser" is-config="true" duration-ms="10761" started-at="2020-02-17T18:28:44 IST" finished-at="2020-02-17T18:28:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.actitime.customers_scripts.CreateCustomer@63753b6d]" name="Login" is-config="true" duration-ms="406" started-at="2020-02-17T18:28:55 IST" finished-at="2020-02-17T18:28:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="testCreateCustomer()[pri:0, instance:com.actitime.customers_scripts.CreateCustomer@63753b6d]" name="testCreateCustomer" duration-ms="1844" started-at="2020-02-17T18:28:56 IST" finished-at="2020-02-17T18:28:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateCustomer -->
+        <test-method status="PASS" signature="Logout()[pri:0, instance:com.actitime.customers_scripts.CreateCustomer@63753b6d]" name="Logout" is-config="true" duration-ms="179" started-at="2020-02-17T18:28:57 IST" finished-at="2020-02-17T18:28:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.actitime.customers_scripts.CreateCustomer@63753b6d]" name="CloseBrowser" is-config="true" duration-ms="70" started-at="2020-02-17T18:28:58 IST" finished-at="2020-02-17T18:28:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- com.actitime.customers_scripts.CreateCustomer -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
