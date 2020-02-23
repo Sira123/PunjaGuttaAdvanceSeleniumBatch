@@ -4,15 +4,15 @@ import org.testng.Assert;
 
 public class ValidationOperation {
 	
-	public static boolean validateTestScript(String exp,String act)
+	public static String validateTestScript(String exp,String act)
 	{
 	  try {
 		  Assert.assertEquals(exp,act);
-		  return true;
+		  return "pass";
 	  }
 	  catch(AssertionError rv)
 	  {
-		  return false;
+		  return "fail";
 	  }
 		
 	}
